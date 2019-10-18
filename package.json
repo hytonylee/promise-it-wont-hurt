@@ -1,0 +1,29 @@
+{
+  "name": "promise-exercise",
+  "version": "1.0.0",
+  "description": "NodeSchool Es6 Promise Exercise",
+  "main": "program.js",
+  "dependencies": {
+    "es6-promise": "^4.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hytonylee/promise-it-wont-hurt.git"
+  },
+  "keywords": [
+    "javascript",
+    "es6",
+    "promise",
+    "nodeschool"
+  ],
+  "author": "Tony Lee <hy.tony.lee@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hytonylee/promise-it-wont-hurt/issues"
+  },
+  "homepage": "https://github.com/hytonylee/promise-it-wont-hurt#readme"
+}
