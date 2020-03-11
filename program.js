@@ -1,16 +1,17 @@
-'use strict'
-require('es6-promise')
+'use strict';
+require('es6-promise');
+
+//// Exercise #4:
 
 //// Exercise #3: To Reject or Not Reject
-const promise = new Promise((fulfill, reject) => {
-    fulfill('I FIRED')
-    reject(new Error('I DID NOT FIRE'))
-})
- const onRejected = (error) => {
-      console.log(error.message)
-}
-promise.then(console.log, onRejected)
-
+// const promise = new Promise((fulfill, reject) => {
+//     fulfill('I FIRED')
+//     reject(new Error('I DID NOT FIRE'))
+// })
+//  const onRejected = (error) => {
+//       console.log(error.message)
+// }
+// promise.then(console.log, onRejected)
 
 //// Exercise #2: Fulfilling a Promise
 // const promise = new Promise((fulfill, reject) => {
